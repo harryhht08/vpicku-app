@@ -2,37 +2,29 @@
 
 ## Project Overview
 
-VpickU is a Vue.js web application designed to facilitate campus transportation and tours for students. It offers a user-friendly interface for scheduling pickups and campus tours, enhancing the campus experience for students and visitors.
+VpickU is a simplified/abbreviated version of the original project, created for demonstration purposes. It is a Vue.js web application designed to facilitate campus transportation and tours for students. This app provides a user-friendly interface for scheduling pickups and campus tours, enhancing the campus experience.
 
 ## Features
 
-- **Schedule a Pickup**: Allows users to book a ride to their desired campus location.
-- **Campus Tour**: Users can schedule guided tours to explore the campus.
+- **Schedule a Pickup**: Users can book a ride to their desired campus location.
+- **Campus Tour**: Allows users to schedule guided tours of the campus.
 
 ## Project Structure
 
-The application is structured as follows:
+The application includes the following key components:
 
-- `src/main.js`: The entry point of the Vue application.
-- `src/App.vue`: The root Vue component.
-- `src/router/index.js`: Defines the Vue Router configuration.
-- `src/views/`: Contains the Vue components for different pages.
+- `src/main.js`: Entry point of the Vue application.
+- `src/App.vue`: Root Vue component.
+- `src/router/index.js`: Vue Router configuration.
+- `src/views/`:
   - `HomeView.vue`: The landing page of the application.
-  - `SchedulePickup.vue`: A form to schedule transportation pickups.
-  - `CampusTour.vue`: A form to schedule campus tours.
-- `src/components/`: (If applicable) Reusable Vue components.
-- `src/assets/`: Static assets like images and styles.
+  - `SchedulePickup.vue`: Form for scheduling transportation pickups.
+  - `CampusTour.vue`: Form for scheduling campus tours.
 
-## Technologies Used
+## Contributing
 
-- **Vue.js**: A progressive JavaScript framework used for building the user interface.
-- **Vue Router**: Used for routing and navigation within the application.
-- (Include any other libraries or frameworks like Vuex, Axios, etc., if used)
+Contributions to the VpickU project are welcome. Please ensure to follow the best practices for pull requests and coding standards.
 
-## Setup and Installation
+## License
 
-To run the VpickU web application locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/vpicku-app.git
+(Include license information here if applicable, e.g., MIT License)
